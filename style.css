@@ -1,0 +1,102 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+section{
+
+height: 510px;
+
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: space-around;
+    @media only screen and (min-width:600px;)aand (max-width:768;) {
+        div{
+        color: #000;
+        font-size:40px
+        }
+        
+    }
+}
+.for{
+    background-color: white;
+    border: 2px solid white;
+    font: size 26px; ;
+    border-radius: 2px;
+    width: 400px;
+    height: 320px;
+    margin: 180px;
+    padding: 20pxp auto;
+    box-shadow: 3px 3px 5px rgb(187, 177, 177) ,-3px -3px 5px rgb(206, 194, 194);
+}
+.mail{
+    font-size: 20px;
+    padding: 10px 10px 10px 125px;
+    margin: 10px ;
+    direction: rtl;
+    border-radius: 10px;
+    border: 1px solid  rgb(223, 215, 215);
+
+}
+.pass{
+    font-size: 20px;
+    padding: 10px 10px 10px 125px;
+    margin: 5px 10px 10px 10px;
+    direction: rtl;
+    border-radius: 5px;
+    border: 1px solid rgb(223, 215, 215);
+
+}
+.sub{
+    padding: 10px 145px 10px 145px;
+    margin: 5px 10px 10px 10px;
+    direction: rtl;
+    border-radius: 5px;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    border: 1px solid rgb(216, 203, 203);
+}
+/* .sub:hover{
+    transform: scale(1.2);
+transition: all 0.5s ease;
+} */
+a{
+    text-decoration: none;
+    font-size: 20px;
+    direction: rtl;
+    border: 1px solid rgb(146, 138, 138);
+    padding: 10px 100px 10px 100px;
+    margin: 5px 10px 10px 10px;
+    border-top-color: white;
+border-left-color: white;
+border-right-color:white ;
+color:blue;
+}
+
+button{
+    font-size: 20px;
+    direction: rtl;
+    padding: 10px 15px 10px 15px;
+    margin:30px 120px 10px 120px; 
+    color: white;
+    background-color:green;
+    border: 1px  solid rgb(216, 203, 203);
+    border-radius: 5px;
+}
+.facebook{
+    margin-top: 180px;
+    margin-right: 50px;
+    direction: rtl;
+    font-size: 22px;
+
+}
+p{
+    margin-top: 20px;
+    margin-left: 220px;
+    display: flex;
+    justify-content: left;
+    text-align: right;
+    direction: rtl;
+    font-size: 15px;
+}
